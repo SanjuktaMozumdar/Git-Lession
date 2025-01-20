@@ -3,7 +3,7 @@ Introduction to Git:
 
 Git is a Distributed Version Control System (DVCS)
 	. Have the local copy of the code
-	. Also the entire commit history
+	. Also, the entire commit history
 	. easy to use
 
 Staging Area - Files in the Staging area will be tracked by Git. Apart from the files in the staging area, Git ignores other files.
@@ -16,10 +16,13 @@ Commit History - Everytime we commit, we create a new version of the file.
 Git Commands: open git bash/ cmd in the current working directory
 ------------- 
 
-1. git init (it initilise and create empty git repository)
-2. git init -b main (for initiatizing and making it a spacific branch)
-3. git add <fileName> (this adds the mentioned file to the staging area and it will be tracked by Git)
-4. git commit -m "commit message" (for commiting or saving the file. We need to add the tracing message)
-5. git log (returns the commit history)
-6. git status (returns the status of the current working files)
-7. git commit -a -m "message" (adding command to directly commit, skipping the staging area)
+1. [git init] -> (it initialise and create empty git repository)
+2. [git init -b main] -> (for initializing and making it a specific branch)
+3. [git add <fileName>] -> (this adds the mentioned file to the staging area and it will be tracked by Git)
+4. [git commit -m "commit message"] -> (for commiting or saving the file. We need to add the tracing message)
+5. [git log] -> (returns the commit history)
+6. [git status] -> (returns the status of the current working files)
+7. [git commit -a -m "message"] -> (adding command to directly commit, skipping the staging area)
+8. [git diff] -> (return the difference in [last commit or staging area] and [current file in working directory])
+9. [git diff --staged] -> (returns the difference in [last commit] and [staging area])
+10. [git add .] -> (this adds all the files present in the working directory to the staging area)
