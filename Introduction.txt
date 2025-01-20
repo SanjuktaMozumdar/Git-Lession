@@ -10,6 +10,8 @@ Staging Area - Files in the Staging area will be tracked by Git. Apart from the 
 
 Commit History - Everytime we commit, we create a new version of the file.
 
+** We need to add the files to the Staging area before Commiting
+
 -------------
 Git Commands: open git bash/ cmd in the current working directory
 ------------- 
@@ -20,4 +22,4 @@ Git Commands: open git bash/ cmd in the current working directory
 4. git commit -m "commit message" (for commiting or saving the file. We need to add the tracing message)
 5. git log (returns the commit history)
 6. git status (returns the status of the current working files)
-7. 
+7. git commit -a -m "message" (adding command to directly commit, skipping the staging area)
