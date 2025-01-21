@@ -27,3 +27,17 @@ Git Commands: open git bash/ cmd in the current working directory
 9. [git diff --staged] -> (returns the difference in [last commit] and [staging area])
 10. [git add .] -> (this adds all the files present in the working directory to the staging area)
 11. [git restore --staged <fileNme>] -> (to unstage a specific file from the staging area)
+
+--------------
+Git + Github
+---------------
+1. Create Repository at Github
+2. Open gitBash
+3. [ssh-keygen -o] -> (to generate ssh-key, It requests to set id and password)
+4. goto the mentioned location where .ssh file is created
+5. in cmd open id_rsa.pub
+6. copy the ssh key
+7. goto github > settings > SSH and GPG keys > add SSH key
+8. [git remote add origin <ssh link from the newly created repository>]
+9. [git remote -v] -> (return the github  fetch and push link)
+10. [git push origin main] -> (pushing local repository to remote)
