@@ -26,3 +26,4 @@ Git Commands: open git bash/ cmd in the current working directory
 8. [git diff] -> (return the difference in [last commit or staging area] and [current file in working directory])
 9. [git diff --staged] -> (returns the difference in [last commit] and [staging area])
 10. [git add .] -> (this adds all the files present in the working directory to the staging area)
+11. [git restore --staged <fileNme>] -> (to unstage a specific file from the staging area)
