@@ -69,9 +69,22 @@ Tags
 -------------
 Branch
 -------------
+    . Branches are created to do parallel development, experimentation and collaborations
+    . It allows us to isolate our work from the main project
+    . Branches can be merged to the main branch
+
 
 20. [git branch] -> (return all the existing branch)
 21. Creating branch:
     i. [git checkout -b <branch name>]
     ii. [git switch -c <branch name>]
 22. [git switch <branch name>] -> (to switch from existing branch to specified branch)
+23. [git branch -d <branch name>] -> (to delete a specific branch)
+24. [git push origin <branch name>] -> (to push the branch to remote repository)
+25. [git branch -m <new branch name>] -> (to rename the current branch)
+26. [git branch -m <old branch name> <new branch name>] -> (to rename other branch from current branch)
+27. [git branch --all] -> (return all local and remote branch)
+28. [git switch -] -> (to go back to the previous branch)
+29. Merging branch to main branch:
+    > switch to main branch
+    > [git merge <branch name>]
