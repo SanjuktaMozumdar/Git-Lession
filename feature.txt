@@ -1,1 +1,5 @@
-This is the feature branch
+This is the newFeature branch:
+1. Adding feature 1
+2. Adding feature 2
+3. Adding feature 3
+4. Adding feature 4
