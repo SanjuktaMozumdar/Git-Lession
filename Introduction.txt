@@ -88,3 +88,4 @@ Branch
 29. Merging branch to main branch:
     > switch to main branch
     > [git merge <branch name>]
+30. [git pull origin main] -> (used to fetch changes from the remote and merge them into the current local branch.)
