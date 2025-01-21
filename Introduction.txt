@@ -62,5 +62,16 @@ Tags
             >Suitable for sharing tags in collaborative environment as they contain metadata.
 
 16. [git tag] -> (return all the given tags to the particular project)
-17. [git tag <v1.0 - version> -m <message>] -> (used for adding annotated tag)
-18. [git show v1.0] -> ((return the description of the version i.e - tagger, date, message)
+17. [git tag <tag name> -m "message"] -> (used for adding annotated tag)
+18. [git show <tag name>] -> (return the description of the version i.e - tagger, date, message)
+19. [git push origin <tag name> -> (it push the tag to the remote repository)
+
+-------------
+Branch
+-------------
+
+20. [git branch] -> (return all the existing branch)
+21. Creating branch:
+    i. [git checkout -b <branch name>]
+    ii. [git switch -c <branch name>]
+22. [git switch <branch name>] -> (to switch from existing branch to specified branch)
