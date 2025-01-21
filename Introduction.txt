@@ -29,15 +29,37 @@ Git Commands: open git bash/ cmd in the current working directory
 11. [git restore --staged <fileNme>] -> (to unstage a specific file from the staging area)
 
 --------------
-Git + Github
+Git + Github: steps as follows
 ---------------
-1. Create Repository at Github
-2. Open gitBash
-3. [ssh-keygen -o] -> (to generate ssh-key, It requests to set id and password)
-4. goto the mentioned location where .ssh file is created
-5. in cmd open id_rsa.pub
-6. copy the ssh key
-7. goto github > settings > SSH and GPG keys > add SSH key
-8. [git remote add origin <ssh link from the newly created repository>]
-9. [git remote -v] -> (return the github  fetch and push link)
-10. [git push origin main] -> (pushing local repository to remote)
+a. Create Repository at Github
+b. Open gitBash
+12. [ssh-keygen -o] -> (to generate ssh-key, It requests to set id and password)
+c. goto the mentioned location where .ssh file is created
+d. in cmd open id_rsa.pub
+e. copy the ssh key
+f. goto github > settings > SSH and GPG keys > add SSH key
+13. [git remote add origin <ssh link from the newly created repository>]
+14. [git remote -v] -> (return the github  fetch and push link)
+15. [git push origin main] -> (pushing local repository to remote)
+
+--------------
+Tags
+--------------
+    . Tags are used to mark specific points in your project's history as being important.
+    . They're often used to mark release versions (e.g., v1.0.0, v2.0.1) or milestones.
+    . They are like a branch that doesn’t change—they are static pointers to a specific commits.
+    . Type of tags :
+        i. Lightweight tag ->
+            >It is simply a pointer to a specific commit. It is not stored as a full object and does not contain any metadata or message.
+            >Used for local development, debugging or quick reference.
+            >Not ideal for formal versioning release.
+        ii. Annotated tag ->
+            >It is a complete object in Git, stored in git database as a full object with
+                    . metadata [name, email, date, tagging message]
+                    . message [additional description]
+                    . commit hash
+            >Ideal for versioning release.
+            >Suitable for sharing tags in collaborative environment as they contain metadata.
+
+16. [git tag] -> (return all the given tags to the particular project)
+17. [git tag <v1.0 - version> -m <message>] -> (used for adding annotated tag)
