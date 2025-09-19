@@ -89,3 +89,4 @@ Branch
     > switch to main branch
     > [git merge <branch name>]
 30. [git pull origin main] -> (used to fetch changes from the remote and merge them into the current local branch.)
+31. [git clone https://github_link.git] -> (To clone a remote project)
